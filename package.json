@@ -21,12 +21,12 @@
     "node": "6.9.x"
   },
   "repository": {
-    "url": "https://glitch.com/#!/project/welcome-project"
+    "url": "https://glitch.com/#!/project/create-react-app"
   },
   "license": "MIT",
   "keywords": [
     "node",
     "glitch",
-    "express"
+    "react"
   ]
 }
