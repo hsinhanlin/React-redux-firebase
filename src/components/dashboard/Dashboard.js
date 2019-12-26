@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Notifications from './Notificaitons';
+import Notifications from './Notifications';
 import ProjectList from '../projects/ProjectList';
 
 class Dashboard extends Component {
