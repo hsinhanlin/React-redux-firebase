@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
+import { BrowserRouter } from "react-reouter-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <p>app.js</p>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <p>app.js</p>
+        </div>
+      </BrowserRouter>
     );
   }
 }
