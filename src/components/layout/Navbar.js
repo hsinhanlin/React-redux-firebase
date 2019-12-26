@@ -7,7 +7,7 @@ const Navbar = () => {
   return(
     <nav className="nav-wrapper grey darken-3">
       <div className="container d-flex">
-        <Link exact to="/" className="">Brand</Link>
+        <Link to="/" className="">Brand</Link>
         <SignInLinks />
         <SignOutLinks/>
       </div>
