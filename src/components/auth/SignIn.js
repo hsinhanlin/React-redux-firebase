@@ -10,7 +10,7 @@ class SignIn extends Component{
     this.setState({
       [e.target.id]: e.target.value
     })
-    e.target.reset()
+    console.dir(e.target)
   }
   
   handleSubmit = (e) => {
