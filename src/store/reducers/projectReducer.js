@@ -27,8 +27,8 @@ const projectReducer = (state = initState, action) => {
       console.log('create project error', action.err)
       return state;
     default:
+      return state;
   }
-  return state
 }
 
 export default projectReducer
