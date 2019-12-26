@@ -6,8 +6,8 @@ import SignOutLinks from './SignOutLinks';
 const Navbar = () => {
   return(
     <nav className="nav-wrapper grey darken-3">
-      <div className="container">
-        <Link exact to="/" className="brand-logo">Brand</Link>
+      <div className="container d-flex">
+        <Link exact to="/" className="">Brand</Link>
         <SignInLinks />
         <SignOutLinks/>
       </div>
