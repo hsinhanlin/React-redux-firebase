@@ -2,7 +2,7 @@ const initState = {
   projects: [
      {
     id: 1,
-    title: "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    title: "sunt aut facere repellat",
     content: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
   },
   {
@@ -12,7 +12,7 @@ const initState = {
   },
   {
     id: 3,
-    title: "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+    title: "ea molestias quasi",
     content: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
   }
   ]
