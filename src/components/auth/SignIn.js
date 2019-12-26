@@ -24,9 +24,9 @@ class SignIn extends Component{
         <form onSubmit={this.handleSubmit} className="white">
           <h5 className="grey-text text-darken-3">Sign In</h5>
           <div className="input-filed">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" id="email" onChange={this.handleChange}/>
-            <label for="password">Password</label>
+            <label htmlFor="password">Password</label>
             <input type="password" id="password" onChange={this.handleChange}/>
           </div>
           <div className="input-field">

@@ -26,13 +26,13 @@ class SignUp extends Component{
         <form onSubmit={this.handleSubmit} className="white">
           <h5 className="grey-text text-darken-3">Sign Up</h5>
           <div className="input-filed">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" id="email" onChange={this.handleChange}/>
-            <label for="password">Password</label>
+            <label htmlFor="password">Password</label>
             <input type="password" id="password" onChange={this.handleChange}/>
-              <label for="firstName">First Name</label>
+              <label htmlFor="firstName">First Name</label>
             <input type="text" id="firstName" onChange={this.handleChange}/>
-                <label for="lastName">Last Nam</label>
+                <label htmlFor="lastName">Last Nam</label>
             <input type="text" id="lastName" onChange={this.handleChange}/>
           </div>
           <div className="input-field">
