@@ -14,7 +14,7 @@ class CreateProject extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    console.log(this.state)
+    console.log(this.state);
     e.target.reset();
   };
 
@@ -23,12 +23,11 @@ class CreateProject extends Component {
       <div className="container">
         <form onSubmit={this.handleSubmit} className="white">
           <h5 className="grey-text text-darken-3">Create new project</h5>
-          <div className="input-filed">
-            <label htmlFor="title">Title</label>
+          <div className="input-field">
             <input type="text" id="title" onChange={this.handleChange} />
+            <label htmlFor="title">Title</label>
           </div>
-          <div className="input-filed">
-            <label htmlFor="content">Project Content</label>
+          <div className="input-field">
             <textarea
               cols="30"
               rows="10"
@@ -36,6 +35,7 @@ class CreateProject extends Component {
               id="content"
               onChange={this.handleChange}
             />
+            <label htmlFor="content">Project Content</label>
           </div>
 
           <div className="input-field">
