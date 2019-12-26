@@ -7,9 +7,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Navbar>
-            
-          </Navbar>
+          <Navbar />
+            <Switch>
+              <Route path="/" component={}>
+            </Switch>
         </div>
       </BrowserRouter>
     );
