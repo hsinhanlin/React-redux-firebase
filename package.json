@@ -21,8 +21,8 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "firebase": "^7.6.1",
-    "react-redux-firebase": "^3.0.6",
-    "redux-firestore": "^0.11.0"
+    "react-redux-firebase": "^2.1.8",
+    "redux-firestore": "^0.5.7"
   },
   "engines": {
     "node": "6.9.x"
