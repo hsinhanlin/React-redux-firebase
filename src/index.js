@@ -4,7 +4,7 @@ import App from './App';
 import './index.css';
 import { createStore } from 'redux';
 
-const sore = createStore();
+const sotre = createStore();
 
 ReactDOM.render(
   <App />,
