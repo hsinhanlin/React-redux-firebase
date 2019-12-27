@@ -7,7 +7,7 @@ export const createProject = project => {
       .add({
         ...project,
         authorFirstName: "nana",
-        authorFirstName: "Xx",
+        authorLastName: "Xx",
         authorId: 123,
         createdAt: new Date()
       })
@@ -15,7 +15,7 @@ export const createProject = project => {
         dispatch({ type: "CREATE_PROJECT", project });
       })
       .catch(err => {
-        dispatch({type: 'CREATE_PROJECT_ERROR', err});
+        dispatch({ type: 'CREATE_PROJECT_ERROR', err });
       });
   };
 };
