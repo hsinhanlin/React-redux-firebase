@@ -12,16 +12,17 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "firebase": "^7.5.0",
+    "moment": "^2.24.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0",
-    "react-router-dom": "^5.1.2",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.4",
-    "redux-thunk": "^2.3.0",
-    "firebase": "^7.5.0",
     "react-redux-firebase": "^2.1.6",
-    "redux-firestore": "^0.5.7"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-firestore": "^0.5.7",
+    "redux-thunk": "^2.3.0"
   },
   "engines": {
     "node": "6.9.x"

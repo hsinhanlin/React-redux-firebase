@@ -15,15 +15,16 @@ const store = createStore(
   rootReducer,
   compose(
     applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore })),
-    reduxFirestore(fbConfig), // redux binding for firebase
+    reduxFirestore(fbConfig),
     reactReduxFirebase(fbConfig, {
       useFirestoreForProfile: true,
       userProfile: "users",
       attachAuthIsReady: true
-    }) // redux bindings for firestore
+    })
   )
 );
 
+// prevent display signIn/SignOut links at the same time
 store.firebaseAuthIsReady.then(() => {
   ReactDOM.render(
     <Provider store={store}>
