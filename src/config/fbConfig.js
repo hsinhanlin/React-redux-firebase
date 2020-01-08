@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyDRYsMkj4-vKpzz4-EfasUXjsjcRd1VkfI",
-  authDomain: "laced-platypus.firebaseapp.com",
-  databaseURL: "https://laced-platypus.firebaseio.com",
+  apiKey: "Example_key",
+  authDomain: "Example_key",
+  databaseURL: "Example_key",
   projectId: "laced-platypus",
-  storageBucket: "laced-platypus.appspot.com",
-  messagingSenderId: "131951710836",
-  appId: "1:131951710836:web:b0eeaa628ebef214dab721"
+  storageBucket: "Example_key",
+  messagingSenderId: "Example_key",
+  appId: "Example_key"
 };
 
 firebase.initializeApp(config);
